@@ -1,8 +1,8 @@
 ﻿{
-  "batchAccountName": "",
-  "batchAccountKey": "",
-  "batchServiceUrl": "",
-  "storageAccountName": "",
-  "storageAccountKey": "",
+  "batchAccountName": "baplsg",
+  "batchAccountKey": "s61LnFVEAu6qpFDCaWDsCuZmfeSIeinQ5X8J4NZCqXI3ht40ue+qes4t7QPa3ZNAlUO+dCq7WgNczhD7NCRcHg==",
+  "batchServiceUrl": "https://baplsg.westeurope.batch.azure.com",
+  "storageAccountName": "sabaplsg",
+  "storageAccountKey": "BNwsd3mJquFZtC4ltlBUMp5UevREqmLVq0L3N+lcjdxKZyTMcnUAHiZGGHrNIl58bZGQoJfxVrjQG3IZ0laUlg==",
   "storageServiceUrl": "core.windows.net"
 }

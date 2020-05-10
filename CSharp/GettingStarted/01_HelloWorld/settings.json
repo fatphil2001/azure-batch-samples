@@ -1,7 +1,9 @@
 ﻿{
-  "poolTargetNodeCount": 2,
-  "poolNodeVirtualMachineSize": "standard_d1_v2",
+  "poolTargetLowPriorityNodeCount": 0,
+  "poolTargetDedicatedNodeCount": 2,
+  //"poolNodeVirtualMachineSize": "standard_d1_v2",
+  "poolNodeVirtualMachineSize": "Standard_D2_v3",
   "poolOSFamily": "5",
   "poolId": "HelloWorld-Pool",
-  "shouldDeleteJob":  true
+  "shouldDeleteJob": true
 }

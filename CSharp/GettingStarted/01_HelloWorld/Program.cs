@@ -111,7 +111,8 @@ namespace Microsoft.Azure.Batch.Samples.HelloWorld
                     AutoPoolIdPrefix = "HelloWorld",
                     PoolSpecification = new PoolSpecification()
                     {
-                        TargetDedicatedComputeNodes = configurationSettings.PoolTargetNodeCount,
+                        TargetDedicatedComputeNodes = configurationSettings.PoolTargetDedicatedNodeCount,
+                        TargetLowPriorityComputeNodes = configurationSettings.PoolTargetLowPriorityNodeCount,
                         CloudServiceConfiguration = new CloudServiceConfiguration(configurationSettings.PoolOSFamily),
                         VirtualMachineSize = configurationSettings.PoolNodeVirtualMachineSize
                     },
